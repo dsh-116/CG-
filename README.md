@@ -91,41 +91,25 @@ T 雾化颜色 切换雾颜色
 项目结构
 
 
-
-
-webgl-3d-renderer/
-├── index.html              # 主页面文件
-├── PhongShading.js         # 主程序逻辑
-├── configMaterialParameters.js  # 材质参数配置
-├── configTexture.js        # 纹理配置
-├── Models.js               # 3D模型定义
-├── shaders/                # 着色器文件
-│   ├── box.vert            # 顶点着色器
-│   ├── box.frag            # 片段着色器
-│   ├── skybox.vert         # 天空盒顶点着色器
-│   ├── skybox.frag         # 天空盒片段着色器
-│   ├── lamp.vert           # 光源顶点着色器
-│   ├── lamp.frag           # 光源片段着色器
-│   ├── depth.vert          # 深度图顶点着色器
-│   └── depth.frag          # 深度图片段着色器
-├── Common/                 # 公共库文件
-│   ├── webgl-utils.js      # WebGL工具函数
-│   ├── initShaders2.js     # 着色器初始化
-│   └── MVnew.js           # 矩阵向量数学库
-├── skybox/                 # 天空盒纹理
-│   ├── right.jpg
-│   ├── left.jpg
-│   ├── top.jpg
-│   ├── bottom.jpg
-│   ├── front.jpg
-│   └── back.jpg
-└── textures/               # 纹理图片
-    ├── cube-texture.jpg
-    └── plane-texture.jpg
-
-
-
-
+- webgl-3d-renderer/
+  - index.html (主页面文件)
+  - PhongShading.js (主程序逻辑)
+  - configMaterialParameters.js (材质参数配置)
+  - configTexture.js (纹理配置)
+  - Models.js (3D模型定义)
+  - shaders/
+    - box.vert (顶点着色器)
+    - box.frag (片段着色器)
+    - ...（其他文件）
+  - Common/
+    - webgl-utils.js (WebGL工具函数)
+    - ...（其他文件）
+  - skybox/
+    - right.jpg
+    - ...（其他纹理）
+  - textures/
+    - cube-texture.jpg
+    - plane-texture.jpg
 
 技术实现细节
 
